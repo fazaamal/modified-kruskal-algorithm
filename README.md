@@ -2,6 +2,10 @@
 
 This is the modified kruskal algorithm, which uses a box sort algorithm of multiple min-heaps, to increase the run time efficiency. It is based off the algorithm the paper ['MODIFIED KRUSKAL ALGORITHM USING BOX SORT FOR MINIMUM SPANNING TREE' by Bilqis Amaliah, Rarasmaya Indraswari, Ria Yunita Sari](https://www.researchgate.net/publication/332978142_MODIFIED_KRUSKAL_ALGORITHM_USING_BOX_SORT_FOR_MINIMUM_SPANNING_TREE).
 
+## How to run the codes:
+To run the original algorithm, simply run 'python original-kruskal.py' in the terminal.
+To run the modified algorithm, simply run 'python modified-kruskal.py' in the terminal.
+
 ## Original Kruskal algorithm
 The original algorithm simply goes as follows:
 1. Sort all the edges of the graph in a single data structure, starting from the smallest edge to the largest one. 
